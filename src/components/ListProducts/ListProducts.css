@@ -1,0 +1,13 @@
+.menu-list{
+    margin: 50px;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}

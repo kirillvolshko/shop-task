@@ -1,0 +1,38 @@
+.product-image-container {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+  }
+.sale-flag {
+    position: absolute;
+    left: 40%;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    z-index: 1;
+    
+  }
+.sale-flag-h{
+    display: none;
+  }
+.product-name{
+    color:rgb(180, 184, 187);
+    font-size: 15pt;
+}
+.product-foto{
+    width: 300px;
+    height: 300px;
+}
+.product-prices {
+    display: flex; 
+    justify-content: center; 
+  }
+.original-price{
+    color: grey;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.original-price-h{
+    display: none;
+}
